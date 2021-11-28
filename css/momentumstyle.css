@@ -1,0 +1,163 @@
+
+    /*font*/
+    /*font*/
+@font-face{
+    font-family : NotoSans;
+    font-weight : bold;
+    src:url("../font/NotoSansCJKkr-Bold-Alphabetic.ttf") format("truetype"),
+    url("../font/NotoSansCJKkr-Bold-Alphabetic.woff") format("woff"),
+    url("../font/NotoSansCJKkr-Bold-Alphabetic.woff2") format("woff2"),
+    url("../font/NotoSansCJKkr-Bold-Alphabetic.eot") format("eot");
+}
+@font-face{
+    font-family : NotoSans;
+    font-weight : 600;
+    src:url("../font/NotoSansCJKkr-Medium-Alphabetic.ttf") format("truetype"),
+    url("../font/NotoSansCJKkr-Medium-Alphabetic.woff") format("woff"),
+    url("../font/NotoSansCJKkr-Medium-Alphabetic.woff2") format("woff2"),
+    url("../font/NotoSansCJKkr-Medium-Alphabetic.eot") format("eot");
+}
+@font-face{
+    font-family: Roboto;
+    font-weight: bold;
+    src:url("../font/Roboto-Bold.ttf") format("truetype"),
+    url("../font/Roboto-Bold.woff") format("woff"),
+    url("../font/Roboto-Bold.woff2") format("woff2"),
+    url("../font/Roboto-Bold.eot") format("eot");
+}
+@font-face{
+    font-family : Roboto;
+    font-weight : 600;
+    src:url("../font/Roboto-Medium.ttf") format("truetype"),
+    url("../font/Roboto-Medium.woff") format("woff"),
+    url("../font/Roboto-Medium.woff2") format("woff2"),
+    url("../font/Roboto-Medium.eot") format("eot");
+}
+body{
+    font-family: NotoSans;
+    font-weight: 600;
+}
+
+    img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:80%;
+    }
+#weather{
+    margin-top: 3.3%;
+    margin-left:5%;
+    margin-bottom: 3.3%;
+    font-weight: 600;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px #fff;
+}
+#clock{
+    font-weight: 900;
+    text-align: center;
+    width: 400px;
+    font-size: 70px;
+    position:absolute;
+    top:37%;
+    left:50%;
+    margin-top: -35px;
+    margin-left: -200px;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+#login-form>input{
+    width: 300px;
+    height: 32px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:4px solid #efe359;
+    font-size: 24px;
+    margin-left: 5%;
+    opacity: 50%;
+}
+#login-form>button{
+    width:94px;
+    padding: 3px;
+    height: 40px;
+    font-weight: 900;
+    text-align: center;
+    background-color: #fff;
+    border-color: #fff;
+}
+#todo-form{
+    margin-left:5%;
+}
+#todo-form>input{
+    font-size: 18px;
+    border-radius: 4px;
+}
+ul{
+    margin-left:5%;
+
+}
+
+li{ 
+    width: 23%;
+    background: rgba(0,0,0,0.5);
+    border-radius: 4px;
+    color: #fff;
+    margin: 3px 1px;
+    padding:2px;
+}
+ul>li>span{
+    font-weight: 600;
+    width:90%;
+}
+
+ul>li>button{
+    width:36px;
+    height: 36px;
+    margin-left:90%;
+    
+
+}
+#greeting{
+    width:400px;
+    height: 50px;
+    margin: 10px 0px;
+    display: inline;
+    font-size: 36px;
+    font-weight: 900;
+    color: #dccc1c;
+    text-shadow: 1px 1px 1px #111;
+    text-align: center;
+    position: absolute;
+    top:25%;
+    left: 50%;
+    margin-left:-200px;
+}
+#quote{
+    text-align: center;
+    position:absolute;
+    bottom: 12.5%;
+    left:50%;
+    margin-left:-25%;
+    padding:2px 2px 8px;
+    width: 50%;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+}
+#quote span:last-child{
+    color: #efe359;
+}
+.bd-radi{
+    border-radius: 12px;
+}
+
+.hidden{
+    display: none;
+};
+
